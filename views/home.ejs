@@ -1,0 +1,13 @@
+<!-- Opening Tags -->
+<% include partials/header.ejs %>
+
+    <h1><%= text %></h1>
+
+    <ul>
+        <% for (let i = 0; i < articles.length; i++) { %>
+            <li><%= articles[i].title %></li>
+        <% } %>
+    </ul>
+
+<!-- Closing Tags -->
+<% include partials/closer.ejs %>

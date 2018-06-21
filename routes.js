@@ -17,9 +17,15 @@ exports.home = (req, res) => {
 };
 
 
-
-
 // About Route
 exports.about = (req, res) => {
     res.render('about', {});
+};
+
+
+// Contact Route
+exports.contact = (req, res) => {
+    res.render('contact', {
+        text: "This is the Contact Page"
+    })
 };

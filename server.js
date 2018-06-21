@@ -26,6 +26,7 @@ const routes = require('./routes');
 // Routes
 app.get('/', routes.home);
 app.get('/about', routes.about);
+app.get('/contact', routes.contact);
 
 
 app.listen(3000, () => console.log('Server is running on Port 3000')); 
